@@ -1,0 +1,15 @@
+h1{
+  margin:auto;
+}
+
+.chapeau{
+  color:white;
+}
+
+.container-fluid{
+  height:100%;
+}
+.fill{
+  height:100%;
+  padding: 15px;
+}
