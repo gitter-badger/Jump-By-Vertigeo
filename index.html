@@ -10,24 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 
-    .row.content {
-      height: 550px
-    }
-    /* Set gray background color and 100% height */
-
-    .sidenav {
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    /* On small screens, set height to 'auto' for the grid */
-
-    @media screen and (max-width: 767px) {
-      .row.content {
-        height: auto;
-      }
-    }
   </style>
 </head>
 
@@ -52,39 +35,51 @@
         </div>
       </div>
 
-    <div class="col-sm-9 fill">
-      <div class="well fill">
-        <div class="panel-group" id="accordion">
-          <div class="panel panel-default" data-toggle="collapse" data-target="#collapse1">
-            <div class="panel-heading">
-              <h4 class="panel-title">Collapsible Group 1</h4>
+      <div class="col-sm-9 fill">
+        <div class="well fill">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default" data-toggle="collapse" data-target="#collapse1">
+              <div class="panel-heading">
+                <h4 class="panel-title">Collapsible Group 1</h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <div class="col-sm-8">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                  <div class="col-sm-4 panel panel-info" style="padding:0px;">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">L'oeil de l'expert</h3>
+                    </div>
+                    <div class="panel-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div id="collapse1" class="panel-collapse collapse in">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            </div>
-          </div>
-          <div class="panel panel-default" data-toggle="collapse" data-target="#collapse2">
-            <div class="panel-heading">
-              <h4 class="panel-title">Collapsible Group 2</h4>
-            </div>
-            <div id="collapse2" class="panel-collapse collapse">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            </div>
-          </div>
-          <div class="panel panel-default" data-toggle="collapse" data-target="#collapse3">
-            <div class="panel-heading">
-              <h4 class="panel-title">Collapsible Group 3</h4>
-            </div>
-            <div id="collapse3" class="panel-collapse collapse">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+
+              <div class="panel panel-default" data-toggle="collapse" data-target="#collapse2">
+                <div class="panel-heading">
+                  <h4 class="panel-title">Collapsible Group 2</h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+              </div>
+              <div class="panel panel-default" data-toggle="collapse" data-target="#collapse3">
+                <div class="panel-heading">
+                  <h4 class="panel-title">Collapsible Group 3</h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-
 </body>
 
 </html>
